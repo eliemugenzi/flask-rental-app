@@ -1,0 +1,102 @@
+.login_body {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(13, 96, 82);
+    color:white;
+    align-items: center;
+    border-radius: 15px;
+    margin: 20px;
+    
+}
+.login_body h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+.login_body .inputbox {
+    position: relative;
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 20px;
+    
+}
+.inputbox input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: rgb(232, 223, 223);
+    border: none;
+    outline: none;
+    border: 2px solid rgb(164, 184, 180);
+    border-radius: 50px;
+    padding: 15px;
+    padding-right: 15px;
+}
+.inputbox input ::placeholder{
+    color: white;
+    align-content: center;
+}
+.inputbox{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+
+}
+.inputbox .icon {
+    position: absolute;
+    right: 20px;
+    margin-top: 10px;
+}
+.login_body .remember_me {
+    display: flex;
+    margin-top: 45px;
+    margin-left: 300px;
+    margin-right: 15px;
+    gap :10px;
+    text-align: center;
+}
+.remember_me label{
+    color: azure;
+}
+.remember_me a {
+    color: azure;
+    text-decoration: underline;
+    
+}
+.remember_me a:hover{
+    color: rgb(47, 232, 201);
+}
+.button{
+    width: 50%;
+    height: 30px;
+    border-radius: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    border: none;
+    outline: none;
+    background-color: rgb(160, 184, 184);
+    color: rgb(10, 83, 91);
+    
+}
+.button:hover{
+    background-color: rgb(47, 232, 201);
+    color: azure;
+}
+.register_link{
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+.register_link p a{
+    color: azure;
+    text-decoration: underline;
+}
+.register_link p a:hover{
+    color: rgb(47, 232, 201);
+    transition: 2ms;
+}
